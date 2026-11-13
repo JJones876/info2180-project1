@@ -9,3 +9,269 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/* General page styling */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 Roboto, "Helvetica Neue", Arial, "Noto Sans",
+                 sans-serif;
+    font-size: 18px;
+}
+
+/* Header layout */
+header {
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation menu */
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation links */
+header nav a {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Navigation hover effect */
+header nav a:hover {
+    color: #5A67D8;
+}
+
+
+/* Hero section */
+.overview-hero {
+    background-color: #E2E8F0;
+    padding: 60px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.overview-hero-image,
+.overview-hero-text {
+    flex: 1;
+}
+
+.overview-hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+/* Learn About section */
+.learn-about {
+    padding: 60px 0;
+}
+
+.learn-about h2 {
+    color: #48BB78;
+    font-size: 24px;
+}
+
+/* Three-column grid */
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+/* Individual card styling */
+.learn-about .card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Card images */
+.learn-about .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card text */
+.learn-about .card-body {
+    padding: 20px;
+}
+
+/* Card headings */
+.learn-about .card h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+
+/* COVID-19 Testing Programme */
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 80px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 2;
+}
+
+.testing .cta {
+    flex: 1;
+    text-align: center;
+}
+
+.testing .btn {
+    display: inline-block;
+    background-color: #48BB78;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* Recent Stories section */
+.stories {
+    padding: 80px 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-bottom: 40px;
+}
+
+/* Arrange each article horizontally */
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* Circular article images */
+.stories article img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Article text */
+.stories .article-body {
+    flex: 1;
+}
+
+.stories article h3 {
+    font-size: 18px;
+}
+
+/* Story links */
+.stories article a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories article a:hover {
+    text-decoration: underline;
+}
+
+
+/* Newsletter section */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.newsletter .container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    margin-bottom: 25px;
+}
+
+/* Newsletter form */
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Subscribe button */
+.newsletter .btn {
+    background-color: #5A67D8;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* JavaScript feedback message */
+.newsletter .message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Footer section */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+
+
+
